@@ -11,8 +11,8 @@ from  dotenv import load_dotenv
 import google.generativeai as genai
 
 # Define OpenAI API KEY
-#os.environ['GOOGLE_API_KEY'] = getpass.getpass('AIzaSyAwTrLqf_Kpq4jvXDOtls9EqpkjKzCGlu0')
-genai.configure(api_key="AIzaSyAwTrLqf_Kpq4jvXDOtls9EqpkjKzCGlu0")
+#os.environ['GOOGLE_API_KEY'] = getpass.getpass('')
+genai.configure(api_key="")
 
 # CSS styling
 css = '''
