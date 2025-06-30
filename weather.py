@@ -79,7 +79,7 @@ print(result["text"])
 st.text(result["text"])
 
 
-OPENWEATHER_API_KEY = "689de3ceb70edd29fd1ffd01adec3f5c"
+OPENWEATHER_API_KEY = ""
 
 class WeatherAgent:
     def _init_(self, api_key):
